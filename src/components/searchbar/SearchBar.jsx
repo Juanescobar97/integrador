@@ -3,7 +3,7 @@ import styles from "./SearchBar.module.css";
 
 function SearchBar({onSearch}) {
    return (
-      <div className={styles.container}>
+      <div contenteditable class="board">
             <input type='search' />
          <button onClick={onSearch}>Agregar</button>
       </div>
