@@ -1,7 +1,7 @@
 import styles from "./Card.module.css";
 
 
-export default function Card({ name, species, gender, image, onClose }) {
+export default function Card({ name, species, gender, image, onClose, id }) {
    return (
       <div className={styles.container}>
          <div className={styles.buttonContainer}>

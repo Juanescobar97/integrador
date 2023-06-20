@@ -20,12 +20,17 @@ function App() {
          }
     }).catch(err => alert(err.response.data.error))
    }
+
+   function onClose(id){
+      const filtered = characters.filter((char) => char.id !== Number(id))
+      setCharacters(filtered)
+    }
    
    return (
       <div>
          <div>
             <Nav onSearch={ onSearch }/>
-            <Cards characters={characters} />
+            <Cards characters={characters} onClose={onClose} />
          </div>
       </div>
    );
