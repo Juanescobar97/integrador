@@ -11,7 +11,7 @@ function SearchBar({onSearch}) {
    return (
       <div contenteditable class="board">
             <input type='search' onChange={handleChange} value={id}/>
-         <button onClick={onSearch}>Agregar</button>
+         <button onClick={()=> onSearch(id) }>Agregar</button>
       </div>
    );
 }
