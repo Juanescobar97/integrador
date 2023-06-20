@@ -9,15 +9,15 @@ function App() {
    const [characters, setCharacters] = useState([])
    
    const onSearch = (id) => {
+      if (characters.find(char => char.id === parseInt(id) )) {
+         alert(`Ya existe el personaje con el id ${id} `)
+      return;
+      }
       axios(`https://rickandmortyapi.com/api/character/${id}`)
       .then(({ data }) => {
-       if (!characters.find(char => char.id === data.id)) {
          if(data.name){
             setCharacters((oldChars)=> [...oldChars, data])
-         }else{
-            alert(`Ya existe el personaje con el id ${id} `)
          }
-      } 
     }).catch(err => alert(err.response.data.error))
    }
    
