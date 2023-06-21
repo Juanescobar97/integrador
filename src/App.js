@@ -3,6 +3,7 @@ import './App.css';
 import Cards from './components/cards/Cards.jsx';
 import Nav from './components/nav/Nav';
 import axios from 'axios';
+import { Routes, Route } from 'react-router-dom';
 
 
 function App() {
