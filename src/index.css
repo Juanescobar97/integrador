@@ -1,14 +1,13 @@
 body {
   margin: 0;
-  background-image: url("https://wallpapers.com/images/hd/4k-universe-blue-galaxy-mmrwwhw8cy5lzxty.jpg");
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  background: linear-gradient(to right, rgb(0, 11, 27), rgb(14, 122, 155));
+  font-family: 'Quicksand', sans-serif;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'LEMONMILK-Light',
     monospace;
 }

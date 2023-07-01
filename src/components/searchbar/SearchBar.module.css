@@ -1,24 +1,28 @@
 .containers{
     display: flex;
-    justify-content: center;
+    justify-content: right;
     
 }
 
 input {
-    background-color: rgb(5, 179, 248);
-    font-family: cursive;
-    border-radius: 10px 0 0 10px ;
-    border-color:black;
-    outline: none;
+    box-sizing: border-box;
+    color: #191919;
+    padding: 15px 15px 15px 35px;
+    width: 70%
 }
 button{
-    border-radius: 0 10px 10px 0;
+    position: relative;
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 15px;
+    color:#000000;
+    padding-top: 13px;
+    padding-bottom:15px;
+    padding-left:10px;
+    padding-right:10px;
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
     border-color: black;
-    color: aquamarine;
-    background-color: black;
 }
 
-button:hover{
-    color: black;
-    background-color: aquamarine;
-}

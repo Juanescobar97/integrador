@@ -9,10 +9,12 @@ function SearchBar({onSearch}) {
       setId(evento.target.value)
    }
    return (
-      <div contenteditable class="board">
-            <input type='search' onChange={handleChange} value={id}/>
-         <button onClick={()=> onSearch(id) }>Agregar</button>
+      <div contenteditable class="input-icon" viewBox="0 0 20 20" fill="currentColor">
+         <button onClick={()=>onSearch(id)  }>Search</button>
+            <path fill-rule="evenodd" d="" clip-rule="evenodd" />
+            <input type='sumbit' onChange={handleChange} placeholder="Ingresa un ID" value={id}/>
       </div>
+      
    );
 }
 

@@ -1,0 +1,16 @@
+.creador{
+    text-align: center;
+    display: flex;
+
+}
+.subtitulo{
+    text-align: left;
+    display: flex;
+}
+.photo{
+    display: flex;
+    align-items: right;
+    border-radius: 400px;
+    width: 500px;
+    
+}

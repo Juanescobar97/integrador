@@ -1,4 +1,10 @@
 .App {
    text-align: center;
-   font-family: cursive;
+   font-family: 'Quicksand', sans-serif;
+   opacity: .6;
+}
+
+.imagen{
+
+   width: 500px
 }
