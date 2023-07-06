@@ -1,5 +1,12 @@
 import styles from "./Card.module.css";
 import { Link } from "react-router-dom";
+import { ADD_FAV, REMOVE_FAV } from "../../redux/actions-types";
+
+const mapDispatchtoProps = (dispatch) => {
+   return{
+      ADD_FAV : (id) => {dispatch()}
+   }
+}
 
 function Card({ name, species, gender, image, onClose, id, detailId }) {
    return (

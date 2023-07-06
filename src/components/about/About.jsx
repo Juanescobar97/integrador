@@ -9,8 +9,9 @@ const About = () => {
             <h1 className={style.creador}>Creador</h1>
         </div>
          <p className={style.subtitulo}>
-            Mi nombre es Juan Escobar, tengo 26 años y estoy
-            en la carrera de Full Stack Developer de SoyHenry
+            Mi nombre es Juan Escobar, tengo 26 años y estoy en la carrera
+            <br/>
+             de Full Stack Developer de SoyHenry
             </p>
         <div>
             <img className={style.photo} src={Foto} alt="fotomia"/>

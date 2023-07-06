@@ -1,16 +1,25 @@
 .creador{
-    text-align: center;
+    background-color: rgb(119, 148, 247);
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 910px;
     display: flex;
 
 }
 .subtitulo{
-    text-align: left;
+    background-color: rgb(119, 148, 247);
+    margin-right: 550px;
+    margin-left: 50px;
+    font-size: 25px;
     display: flex;
+
 }
 .photo{
+    margin-top: -200px;
+    margin-left: 850px;
     display: flex;
-    align-items: right;
     border-radius: 400px;
-    width: 500px;
+    width: 400px;
     
 }

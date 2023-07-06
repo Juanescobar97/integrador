@@ -23,6 +23,8 @@
 }
 
 .buttonx {
+    color: white;
+    border-color: white;
     border-radius: 10px;
     text-align: start;
     width: 2rem;
