@@ -42,10 +42,6 @@ function App() {
     }).catch(err => alert(err.response.data.error))
    }
 
-  
-
-   
-
    function onClose(id){
       const filtered = characters.filter((char) => char.id !== Number(id))
       setCharacters(filtered)
